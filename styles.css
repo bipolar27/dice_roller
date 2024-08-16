@@ -10,6 +10,16 @@ body{
 .dice{
   text-align: center;
   display: inline-block;
+  width: 20%;
+}
+@media(max-width:900px){
+  
+  .dice{
+    text-align: center;
+    display: inline-block;
+    width: 45%;
+  }
+
 }
 
 h1{
