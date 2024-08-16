@@ -26,7 +26,7 @@ h1{
   background: -webkit-linear-gradient(goldenrod , #B82E1F);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 10rem;
+  font-size: 6rem;
   font-weight: bold;
   font-style: italic;
 }
@@ -39,17 +39,30 @@ h2{
 }
 
 p{
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   font-style: italic;
   text-align: center;
   color:darkcyan;
+  padding-bottom: 0%;
 }
 img{
   width: 80%;
 }
+button {
+  background-color: #6CA0DC; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:1.5rem;
+  }
 
 footer{
+  padding-top: 7.5%;
   color:azure;
   font-style: italic;
   font-size: 2rem;
