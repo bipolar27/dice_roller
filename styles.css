@@ -1,0 +1,48 @@
+body{
+  background-color:rgb(37, 34, 34);
+}
+
+.container{
+  margin: auto;
+  text-align: center;  
+}
+
+.dice{
+  text-align: center;
+  display: inline-block;
+}
+
+h1{
+  background: -webkit-linear-gradient(goldenrod , #B82E1F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 10rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h2{
+  color:goldenrod;
+  font-size: 4rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+p{
+  font-size: 3rem;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  color:darkcyan;
+}
+img{
+  width: 80%;
+}
+
+footer{
+  color:azure;
+  font-style: italic;
+  font-size: 2rem;
+  margin: auto;
+  text-align: center;
+}
