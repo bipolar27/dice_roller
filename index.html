@@ -8,42 +8,26 @@
 </head>
 <body>
   <div class="container">
-    <h1 class = "heading">Dice Roller</h1>
-    <div class ="dice">
-      <p>Dice1</p>
-      <img class="image1" src="images\dice1.png">
-    </div>
-    <div class = "dice">
-      <p>Dice2</p>
-      <img class="image2" src="images\dice1.png">
-    </div>
-    <div class = "dice">
-      <p>Dice3</p>
-      <img class="image2" src="images\dice1.png">
-    </div>
-    <div class = "dice">
-      <p>Dice4</p>
-      <img class="image2" src="images\dice1.png">
-    </div>
+    <h1 class = "heading">Dice Roller<span style="font-size: 0.8em;">&trade;</span></h1>
 
+    <div>
+      <label for="numDice">Enter number of dice:</label>
+      <input type="number" id="numDice" min="1" max="10">
+      <button onclick="generateDice()">Roll Dice</button>
+    </div>
+    <div id="diceContainer"></div>    
+  
     <div id="sum">
-      <h2>Sum=10</h2>
+      <h2>Sum=0</h2>
     </div>
-
-    <button onclick="location.reload()";>Regenerate</button>
-
     
   </div>
   <footer>
-    designed by Jason Roy
+    designed by Jason Roy©
   </footer>
   
   <script src = "script.js"></script>
 
 </body>
-  
-
-  
-  
 
 </html>
